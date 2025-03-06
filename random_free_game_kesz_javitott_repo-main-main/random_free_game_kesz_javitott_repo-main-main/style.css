@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(1,50px);
+    grid-template-rows: repeat(5,100px);
+    gap:30px;
+    justify-content: center;  
+}
+.játéknév{
+    background-color: gray;
+}
+.műfaj{
+    background-color: gray;
+}
+.platform{
+    background-color: gray;
+}
+.insert_platform{
+    background-color: gray;
+}
+.készítő{
+    background-color: gray;
+}
+button{
+    text-align: center;
+    background-color: grey;
+    padding: auto;
+    margin: auto;
+    box-shadow: 8px 8px 0px rgb(80, 80, 80);
+}
